@@ -10,7 +10,7 @@ class Todos extends Component {
     ));
   }
 }
-//Proptypes
+
 Todos.propTypes = {
   todos: PropTypes.array.isRequired
 }

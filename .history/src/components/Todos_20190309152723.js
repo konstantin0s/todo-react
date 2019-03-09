@@ -10,9 +10,9 @@ class Todos extends Component {
     ));
   }
 }
-//Proptypes
-Todos.propTypes = {
-  todos: PropTypes.array.isRequired
+
+Todos.prototype = {
+  todos: PropTypes.object.isRequired
 }
 
 export default Todos;
