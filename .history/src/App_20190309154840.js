@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   markComplete = (id) => {
-    console.log(id)
+    console.log(this.props)
  }
 
   render() {

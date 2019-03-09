@@ -22,11 +22,6 @@ class App extends Component {
       }
     ]
   }
-
-  markComplete = (id) => {
-    console.log(id)
- }
-
   render() {
     console.log(this.state.todos);
     return (
