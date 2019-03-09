@@ -9,17 +9,17 @@ class App extends Component {
   state = { 
     todos: [
       {
-        id: uuid.v4(),
+        id: 1,
         title: 'Take out the trash',
         completed: false
       },
       {
-        id: uuid.v4(),
+        id: 2,
         title: 'Dinner with Claudia',
         completed: false
       },
       {
-        id: uuid.v4(),
+        id: 3,
         title: 'Kiss her',
         completed: false
       }
@@ -44,7 +44,7 @@ class App extends Component {
  //Add todo
  addTodo = (title) => {
    const newTodo = {
-     id: uuid.v4(),
+     id: 4,
      title,
      completed: false
    }
