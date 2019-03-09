@@ -4,9 +4,7 @@ import React from 'react'
   return (
       <React.Fragment>
         <h1>About</h1>
-        <p>This is the TodoList app v1.0.0.
-          Learning react
-        </p>
+        <p>This is the TodoList app v1.0.0</p>
       </React.Fragment>
   )
 }

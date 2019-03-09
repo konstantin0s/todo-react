@@ -66,9 +66,9 @@ class App extends Component {
              <Todos todos={this.state.todos} markComplete={this.markComplete} 
                delTodo={this.delTodo} />
             </React.Fragment>
-           )} />    
-           <Route path="/about" component={About} /> 
+         )} />      
          </div>
+         <Route path="/about" component={About} />>
       </div>
       </Router>
     );

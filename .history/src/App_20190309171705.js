@@ -67,7 +67,7 @@ class App extends Component {
                delTodo={this.delTodo} />
             </React.Fragment>
            )} />    
-           <Route path="/about" component={About} /> 
+           <Route path="/about" component={About} />>  
          </div>
       </div>
       </Router>
