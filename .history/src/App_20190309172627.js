@@ -5,8 +5,8 @@ import Header from './components/layout/Header';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
 import uuid from 'uuid';
-import axios from 'axios';
 import './App.css';
+import axios from 'axios';
 
 class App extends Component {
   state = { 
@@ -27,12 +27,12 @@ class App extends Component {
       //   completed: false
       // }
     ]
-  }
 
-  componentDidMount() {
-    axios.get('https://jsonplaceholder.typicode.com/todos?_limit=10')
-    .then(res => this.setState( { todos: res.data}))
-   }
+    componentDidMount() {
+      axios.get('https://jsonplaceholder.typicode.com/todos')
+      .then(res => )
+    }
+  }
 
   //Toggle complete
   markComplete = (id) => {
