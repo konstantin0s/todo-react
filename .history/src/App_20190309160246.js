@@ -33,10 +33,6 @@ class App extends Component {
     }) } );
  }
 
- delTodo = (id) => {
-   this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] });
- }
-
   render() {
     console.log(this.state.todos);
     return (
