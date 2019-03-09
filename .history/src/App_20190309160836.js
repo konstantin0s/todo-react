@@ -42,7 +42,6 @@ class App extends Component {
     console.log(this.state.todos);
     return (
       <div className="App">
-      <Header />
         <Todos todos={this.state.todos} markComplete={this.markComplete} 
         delTodo={this.delTodo} />
       </div>
