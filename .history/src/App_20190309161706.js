@@ -43,12 +43,10 @@ class App extends Component {
     console.log(this.state.todos);
     return (
       <div className="App">
-         <div className="container">
-         <Header />
-         <AddTodo />
-         <Todos todos={this.state.todos} markComplete={this.markComplete} 
+      <Header />
+      <AddTodo />
+        <Todos todos={this.state.todos} markComplete={this.markComplete} 
         delTodo={this.delTodo} />
-         </div>
       </div>
     );
   }
